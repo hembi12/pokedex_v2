@@ -1,0 +1,27 @@
+/* Estilo de fondo para el body */
+body {
+    background-color: #CC0000;
+    /* Rojo */
+}
+
+/* Fuente personalizada para el header */
+.font-press-start {
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Estilo de color para la palabra "Pokédex" */
+.text-pokedex {
+    color: #FFDE00;
+    /* Amarillo */
+    text-shadow: -1px -1px 0 #3B4CCA, 1px -1px 0 #3B4CCA, -1px 1px 0 #3B4CCA, 1px 1px 0 #3B4CCA;
+    /* Borde azul */
+}
+
+/* Cambiar el color de los labels a blanco */
+label {
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #3B4CCA;
+}
