@@ -1,7 +1,13 @@
-/* Estilo de fondo para el body */
+:root {
+    --color-rojo: #CC0000;
+    --color-amarillo: #FFDE00;
+    --color-azul: #3B4CCA;
+    --color-blanco: #FFFFFF;
+    --color-flying: #87CEEB; /* SkyBlue */
+}
+
 body {
-    background-color: #CC0000;
-    /* Rojo */
+    background-color: var(--color-rojo);
 }
 
 /* Fuente personalizada para el header */
@@ -9,19 +15,16 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-/* Estilo de color para la palabra "Pokédex" */
 .text-pokedex {
-    color: #FFDE00;
-    /* Amarillo */
-    text-shadow: -1px -1px 0 #3B4CCA, 1px -1px 0 #3B4CCA, -1px 1px 0 #3B4CCA, 1px 1px 0 #3B4CCA;
-    /* Borde azul */
+    color: var(--color-amarillo);
+    text-shadow: -1px -1px 0 var(--color-azul), 1px -1px 0 var(--color-azul),
+        -1px 1px 0 var(--color-azul), 1px 1px 0 var(--color-azul);
 }
 
-/* Cambiar el color de los labels a blanco */
 label {
-    color: #FFFFFF;
+    color: var(--color-blanco);
 }
 
 footer {
-    background-color: #3B4CCA;
+    background-color: var(--color-azul);
 }
